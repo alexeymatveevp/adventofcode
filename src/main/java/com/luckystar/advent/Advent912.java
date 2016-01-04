@@ -14,7 +14,7 @@ import java.util.*;
 public class Advent912 {
 
     public static void main(String[] args) throws URISyntaxException, IOException {
-        String input = new String(Files.readAllBytes(Paths.get(Advent81.class.getClassLoader().getResource("input_9.txt").toURI())));
+        String input = new String(Files.readAllBytes(Paths.get(Advent912.class.getClassLoader().getResource("input_9.txt").toURI())));
         String[] rows = input.split("\r\n");
         // create a set of city pairs
         Map<CityPair, Integer> cityPairToDistance = new HashMap<CityPair, Integer>();
