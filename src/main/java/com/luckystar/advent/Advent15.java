@@ -33,7 +33,7 @@ public class Advent15 {
         int[] bestRecipe = null;
         while (!end) {
             end = arr.inc();
-//            System.out.println(Arrays.toString(arr.num));
+            System.out.println(Arrays.toString(arr.num));
             // calculate cookie recipe
             int[] quantity = arr.num;
             int j = 0;
