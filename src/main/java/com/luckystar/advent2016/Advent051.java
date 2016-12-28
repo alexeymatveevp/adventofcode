@@ -11,7 +11,6 @@ public class Advent051 {
 
     public static void main(String[] args) throws Exception {
         String input = "ffykfhsq";
-        String[] rows = input.split("\n");
         MessageDigest md = MessageDigest.getInstance("MD5");
         int i = 0;
         int passwordLength = 8, lettersLeft = 8;
