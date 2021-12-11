@@ -1,4 +1,4 @@
-package com.luckystar.advent2018_1;
+package com.luckystar.advent2018;
 
 import com.luckystar.advent2016.Advent011;
 

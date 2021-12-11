@@ -65,10 +65,9 @@ public class Advent912 {
             Set<ArrayList<String>> currentSet = new HashSet<ArrayList<String>>();
             for (List<String> l : returnList) {
                 for (int j = 0; j < l.size() + 1; j++) {
-                    l.add(j, num[i]);
-                    ArrayList<String> T = new ArrayList<String>(l);
-                    l.remove(j);
-                    currentSet.add(T);
+                    ArrayList<String> clone = new ArrayList<String>(l);
+                    clone.add(j, num[i]);
+                    currentSet.add(clone);
                 }
             }
             returnList = new ArrayList<ArrayList<String>>(currentSet);
