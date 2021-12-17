@@ -120,10 +120,10 @@ public class Advent04 {
 
         System.out.println(durations2.size());
 
-        List<Integer> list = new ArrayList<>();
-        for (TimeSleep2 ts : durations2) {
-            list.add
-        }
+//        List<Integer> list = new ArrayList<>();
+//        for (TimeSleep2 ts : durations2) {
+//            list.add
+//        }
 
 
     }
